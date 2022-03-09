@@ -14,17 +14,22 @@
     <body>
         <header></header>
         <main>
-            <h1>
-                Calculatrice JS
-            </h1>
+            <div>
+                <img src="img/einstein.png" alt="visage d'Albert Einstein">
+                <h1>
+                    Calculatrice JS
+                </h1>
+                <img src="img/einstein.png" alt="visage d'Albert Einstein">
+            </div>
             <script>
                 let firstValue = prompt("Insérez une valeur");
-                let operator =  prompt("Insérez une valeur");
+                let operator =  prompt("Insérez un opérateur");
                 let secondValue =  prompt("Insérez une valeur");
+                
+                console.log(parseInt(firstValue) + parseInt(secondValue));
+                console.log(parseFloat(firstValue) + parseFloat(secondValue));
+                console.log(Number(firstValue) + Number(secondValue));
 
-                console.log(firstValue);
-                console.log(operator);
-                console.log(secondValue);
                 </script>
         </main>
     </body>
